@@ -1,0 +1,53 @@
+@media (min-width: 320px) {
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gallery-title {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  .gallery-classification {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.1;
+    color: var(--classification-title);
+    margin-bottom: 32px;
+  }
+  .gallery-item {
+    margin-bottom: 30px;
+  }
+  .gallery-image {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .gallery {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .gallery-item {
+    width: 420px;
+    margin-bottom: 126px;
+    margin-right: 66px;
+  }
+  .gallery-item:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+.button {
+  background-color: transparent;
+  border-color: var(--text-color);
+  line-height: 1.33;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  color: var(--text-color);
+
+  display: block;
+  margin: 0 auto 66px auto;
+  padding: 20px 48px;
+}

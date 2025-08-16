@@ -1,0 +1,19 @@
+@media (min-width:320px) {
+    .container {
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+
+    outline: 1px solid green;
+}
+}
+
+@media (min-width:1200px) {
+.container {
+    width: 936px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    outline: 1px solid red;
+}
+}
